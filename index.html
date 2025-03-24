@@ -43,7 +43,7 @@
           <div class="row">
             <div class="intro-text">
               <h1>Cameron Delsol</h1>
-              <p>Developpeur jeux vidéo</p>
+              <p id="header_subtitle">Developpeur jeux vidéo</p>
               <!--<a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div> -->
           </div>
         </div>
@@ -63,11 +63,12 @@
           <ul class="nav navbar-nav">
             <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
             <li class="hidden"> <a href="#page-top"></a> </li>
-            <li> <a class="page-scroll" href="#page-top">Accueil</a> </li>
-            <li> <a class="page-scroll" href="#about">A propos</a> </li>
-            <li> <a class="page-scroll" href="#skills">Compétence</a> </li>
-            <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
-            <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+            <li> <a id="navbar_home" class="page-scroll" href="#page-top">Accueil</a> </li>
+            <li> <a id="navbar_about" class="page-scroll" href="#about">A propos</a> </li>
+            <li> <a id="navbar_skills" class="page-scroll" href="#skills">Compétence</a> </li>
+            <li> <a id="navbar_portfolio" class="page-scroll" href="#portfolio">Portfolio</a> </li>
+            <li> <a id="navbar_contact" class="page-scroll" href="#contact">Contact</a> </li>
+            <li><button id="langSwitch" class="btn btn-primary">EN</button></li>
           </ul>
         </div>
       </div>
@@ -77,17 +78,17 @@
   <div id="about">
     <div class="container">
       <div class="section-title text-center center">
-        <h2>À propos de moi</h2>
+        <h2 id="about_title">À propos de moi</h2>
         <hr>
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-8 col-md-offset-2">
           <div class="about-text text-center">
-            <p>Actuellement étudiant en deuxième année de Master Informatique, spécialisé dans l'Ingénierie Logicielle pour les Jeux (ILJ), je suis passionné par l'univers du jeu vidéo depuis mon enfance.
+            <p id="about_paragraph_1">Actuellement étudiant en deuxième année de Master Informatique, spécialisé dans l'Ingénierie Logicielle pour les Jeux (ILJ), je suis passionné par l'univers du jeu vidéo depuis mon enfance.
               Cette passion m'a conduit à m'intéresser aux coulisses de la création de jeux et à développer des compétences techniques dans le domaine.</p>
-            <p>Mon parcours universitaire m'a permis d'acquérir une solide expertise en programmation.
+            <p id="about_paragraph_2">Mon parcours universitaire m'a permis d'acquérir une solide expertise en programmation.
               Je suis particulièrement attiré par le défi de concevoir des expériences immersives et innovantes pour les joueurs.</p>
-            <p>Toujours curieux et motivé, j'aime explorer de nouvelles technologies. Mon objectif est de combiner ma créativité et mes compétences techniques pour participer à des projets ambitieux qui marquent les esprits.</p>
+            <p id="about_paragraph_3">Toujours curieux et motivé, j'aime explorer de nouvelles technologies. Mon objectif est de combiner ma créativité et mes compétences techniques pour participer à des projets ambitieux qui marquent les esprits.</p>
           </div>
         </div>
       </div>
@@ -97,11 +98,11 @@
   <div id="skills" class="text-center">
     <div class="container">
       <div class="section-title center">
-        <h2>Compétences</h2>
+        <h2 id="skills_title">Compétences</h2>
         <hr>
       </div>
       <div class="row">
-        <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="50"> <span class="percent">2</span> </span>
+        <div class="col-md-3 col-sm-6 skill"><span class="chart" data-percent="50"> <span class="percent">2</span> </span>
           <h4>Unity</h4>
         </div>
         <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="50"> <span class="percent">2</span> </span>
@@ -132,18 +133,18 @@
   <div id="portfolio">
     <div class="container">
       <div class="section-title text-center center">
-        <h2>Portfolio</h2>
+        <h2 id="portfolio_title">Portfolio</h2>
         <hr>
       </div>
       <div class="categories">
         <ul class="cat">
           <li>
             <ol class="type">
-              <li><a href="#" data-filter="*" class="active">Tous</a></li>
-              <li><a href="#" data-filter=".perso">Projet Perso</a></li>
-              <li><a href="#" data-filter=".groupe">Projet en Groupe</a></li>
-              <li><a href="#" data-filter=".etude">Projet d'Etude</a></li>
-              <li><a href="#" data-filter=".test">Testable</a></li>
+              <li><a id="portfolio_filter_all" href="#" data-filter="*" class="active">Tous</a></li>
+              <li><a id="portfolio_filter_personal" href="#" data-filter=".perso">Projet Perso</a></li>
+              <li><a id="portfolio_filter_group" href="#" data-filter=".groupe">Projet en Groupe</a></li>
+              <li><a id="portfolio_filter_study" href="#" data-filter=".etude">Projet d'Etude</a></li>
+              <li><a id="portfolio_filter_playable" href="#" data-filter=".test">Testable</a></li>
             </ol>
           </li>
         </ul>
@@ -158,13 +159,13 @@
                 <a href="./BirdGame" title="Project description">
                 <div class="hover-text ">
                   <h4>Flappy Xayah</h4>
-                  <small>Flappy Bird like sur Unity</small>
+                  <small id="portfolio_flappy_subtitle">Flappy Bird like sur Unity</small>
                   <br>
                   <br>
                   <br>
                   <br>
                   <br>
-                  <small >Cliquez pour jouer</small> </div>
+                  <small id="portfolio_flappy_play">Cliquez pour jouer</small> </div>
                 <img src="img/portfolio/projectBird.png" class="img-responsive" alt="Project Title"> </a> </div>
             </div>
           </div>
@@ -174,11 +175,11 @@
               <div class="hover-bg">
                   <div class="hover-text d-flex flex-column justify-content-between h-100">
                     <h4>MMOAT</h4>
-                    <small>MMO en 3e personne sur Unreal Engine 5</small>
+                    <small id="portfolio_mmoat_subtitle">MMO en 3e personne sur Unreal Engine 5</small>
                     <br>
                     <br>
-                    <small>MMOAT est un projet d'etude en groupe avec Hana Delcourt</small> <br><br>
-                    <small style="font-style: italic">en developpement</small>
+                    <small id="portfolio_mmoat_description">MMOAT est un projet d'etude en groupe avec Hana Delcourt</small> <br><br>
+                    <small id="portfolio_mmoat_devStatus" style="font-style: italic">en developpement</small>
                   </div>
                   <img src="img/portfolio/mmoat.png" class="img-responsive" alt="Project Title">
               </div>
@@ -190,12 +191,12 @@
               <div class="hover-bg">
                 <div class="hover-text d-flex flex-column justify-content-between h-100">
                   <h4>Platformer</h4>
-                  <small>Platformer 2D sur Unity 5</small> <br>
+                  <small id="portfolio_platformer_subtitle">Platformer 2D sur Unity 5</small> <br>
                   <br>
                   <br>
                   <br>
                   <br>
-                  <small style="font-style: italic">en developpement</small>
+                  <small id="portfolio_platformer_devStatus" style="font-style: italic">en developpement</small>
                 </div>
                 <img src="img/portfolio/platform.png" class="img-responsive" alt="Project Title">
               </div>
@@ -279,32 +280,14 @@
     <div class="overlay">
       <div class="container">
         <div class="section-title center">
-          <h2>Me contacter</h2>
+          <a id="contact_button" href="mailto:delsolcameronpro@gmail.com?subject=Contact depuis portfolio" class="btn btn-primary contact-button" >
+            Me contacter
+          </a>
+          <h3 style="margin: 0">Email : </h3><h4 style="margin-bottom: 50px;color: white"> delsolcameronpro@gmail.com</h4>
           <hr>
         </div>
         <div class="col-md-8 col-md-offset-2">
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="text" id="name" class="form-control" placeholder="Nom" required="required">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-              <p class="help-block text-danger"></p>
-            </div>
-            <div id="success"></div>
-            <button type="submit" class="btn btn-default">Envoyer</button>
-          </form>
+
           <div class="social">
             <ul>
               <li><a href="https://github.com/Draggyfire"><i class="fa fa-github"></i></a></li>
@@ -332,6 +315,7 @@
   <script type="text/javascript" src="js/waypoints.js"></script>
   <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
   <script type="text/javascript" src="js/contact_me.js"></script>
+  <script type="text/javascript" src="js/translations.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

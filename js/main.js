@@ -105,4 +105,28 @@ $('#nav').affix({
 
 
 }
+let currentLang = 'fr';
+
+document.getElementById('langSwitch').addEventListener('click', () => {
+    currentLang = currentLang === 'fr' ? 'en' : 'fr';
+    updateLanguage();
+    document.getElementById('langSwitch').textContent = currentLang === 'fr' ? 'EN' : 'FR';
+});
+
+function updateLanguage() {
+    const translations = window.translations[currentLang];
+    for (let key in translations) {
+        const el = document.getElementById(key);
+        if (el) {
+            el.textContent = translations[key];
+        }
+    }
+}
+
+
 main();
+
+
+
+
+
