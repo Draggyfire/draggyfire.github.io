@@ -25,6 +25,17 @@ window.translations = {
 
         portfolio_flappy_subtitle: "Flappy Bird like sur Unity",
         portfolio_flappy_play: "Cliquez pour jouer",
+        modal_flappy_title: "Flappy Xayah",
+        modal_flappy_text : "Ce jeu est la première expérience que j'ai eue avec Unity.<br> " +
+            "Je l'ai réalisé à l'aide du tutoriel <a href='www.youtube.com/watch?v=XtQMytORBmM'> The Unity Tutorial for Complete Beginners de Game Maker's Toolkit</a>" +
+            ", qui m'a appris à comprendre l'interface d'Unity ainsi que des notions essentielles, comme les " +
+            "<br><br>" +
+            "Dans ce jeu, on incarne Xayah (le personnage de League of Legends) qui progresse dans une forêt. " +
+            "L'objectif est de tirer des plumes sur des cibles pour ouvrir des tuyaux, mais Xayah dispose d'un nombre limité de plumes à chaque essai. " +
+            "Le personnage avance sans s'arrêter et est soumis à la gravité. " +
+            "Si elle sort de l'écran ou entre en collision avec un obstacle, c'est la fin de la partie."+
+            "<br><br>"+
+            "<a href='../BirdGame' class='modal-button'>Tester Flappy Xayah</a>",
 
         portfolio_mmoat_subtitle: "MMO en 3e personne sur Unreal Engine 5",
         portfolio_mmoat_description: "MMOAT est un projet d'étude en groupe avec Hana Delcourt",
@@ -32,6 +43,7 @@ window.translations = {
 
         portfolio_platformer_subtitle: "Platformer 2D sur Unity 5",
         portfolio_platformer_devStatus: "en développement",
+
 
         contact_button: "Me contacter",
     },
@@ -60,8 +72,18 @@ window.translations = {
         portfolio_filter_study: "Study Project",
         portfolio_filter_playable: "Playable",
 
+        modal_flappy_title: "Flappy Xayah",
         portfolio_flappy_subtitle: "Flappy Bird-like made with Unity",
         portfolio_flappy_play: "Click to play",
+        modal_flappy_text: "This game was my first experience with Unity.<br> " +
+            "I created it using the tutorial <a href='www.youtube.com/watch?v=XtQMytORBmM'> The Unity Tutorial for Complete Beginners by Game Maker's Toolkit</a>" +
+            ", which taught me how to understand Unity's interface as well as essential concepts, like <br><br>" +
+            "In this game, you play as Xayah (the character from League of Legends) who progresses through a forest. " +
+            "The goal is to shoot feathers at targets to open pipes, but Xayah has a limited number of feathers per attempt. " +
+            "The character moves forward constantly and is subject to gravity. " +
+            "If she exits the screen or collides with an obstacle, the game is over." +
+            "<br><br>" +
+            "<a href='../BirdGame' class='modal-button'>Try Flappy Xayah</a>",
 
         portfolio_mmoat_subtitle: "3rd-person MMO in Unreal Engine 5",
         portfolio_mmoat_description: "MMOAT is a group study project with Hana Delcourt",

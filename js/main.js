@@ -123,6 +123,32 @@ function updateLanguage() {
     }
 }
 
+const modal = document.getElementById("myModal");
+const modalTitle = document.getElementById("modalTitle");
+const modalText = document.getElementById("modalText");
+const closeModalBtn = document.querySelector(".close-btn");
+
+// Fonction pour ouvrir la modale et changer son contenu
+function openModal(title, text) {
+    const translations = window.translations[currentLang];
+    key="modal_"+title+"_";
+    modalTitle.textContent = translations[key+"title"];
+    modalText.innerHTML = translations[key+"text"];
+    modal.style.display = "flex";
+}
+
+// Fermer la modale en cliquant sur la croix
+closeModalBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+});
+
+// Fermer la modale en cliquant en dehors
+window.addEventListener("click", (event) => {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+});
+
 
 main();
 
