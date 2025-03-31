@@ -40,10 +40,20 @@ window.translations = {
         portfolio_mmoat_subtitle: "MMO en 3e personne sur Unreal Engine 5",
         portfolio_mmoat_description: "MMOAT est un projet d'étude en groupe avec Hana Delcourt",
         portfolio_mmoat_devStatus: "en développement",
+        modal_mmoat_title: "Projet MMOAT",
+        modal_mmoat_text: "Ce projet universitaire a été réalisé en duo avec Hana Delcourt et est en cours de développement sur Unreal Engine 5. " +
+            "Son objectif est de créer un jeu multijoueur intégrant un système d'inventaire, des ennemis ciblables et des sorts."
+        ,
 
         portfolio_platformer_subtitle: "Platformer 2D sur Unity 5",
         portfolio_platformer_devStatus: "en développement",
 
+        portfolio_fishclicker_subtitle: "Clicker de pêche sur Unity 5 pour mobile",
+        portfolio_fishclicker_devStatus: "en développement",
+        modal_fishclicker_title: "FishClicker",
+        modal_fishclicker_text: "Ce projet universitaire, réalisé en duo avec Hana Delcourt, est un jeu de type clicker où l'objectif est de pêcher tous les poissons du jeu. " +
+            "Au fil de la partie, le joueur peut améliorer ses compétences pour pêcher de manière plus efficace.<br><br> Ce projet m'a appris à travailler en équipe sur Unity à l'aide de Unity Cloud" +
+            ", à créer des animations et les lancer depuis un script, à utiliser le nouveau système de Player Input d'Unity mais surtout à conceptualisé un jeu fait pour le mobile.",
 
         contact_button: "Me contacter",
     },
@@ -88,10 +98,19 @@ window.translations = {
         portfolio_mmoat_subtitle: "3rd-person MMO in Unreal Engine 5",
         portfolio_mmoat_description: "MMOAT is a group study project with Hana Delcourt",
         portfolio_mmoat_devStatus: "in development",
+        modal_mmoat_title: "Projet MMOAT",
+        modal_mmoat_text: "This university project was developed in collaboration with Hana Delcourt and is currently in development on Unreal Engine 5. " +
+            "Its goal is to create a multiplayer game featuring an inventory system, targetable enemies, and spells.",
 
         portfolio_platformer_subtitle: "2D Platformer on Unity 5",
         portfolio_platformer_devStatus: "in development",
 
+
+        portfolio_fishclicker_subtitle: "Fishing clicker on Unity 5 for mobile",
+        portfolio_fishclicker_devStatus: "in development",
+        modal_fishclicker_title: "FishClicker",
+        modal_fishclicker_text: "This university project, developed in collaboration with Hana Delcourt, is a clicker game where the goal is to catch all the fish in the game. " +
+            "As the game progresses, the player can upgrade their skills to fish more efficiently.<br><br>This project taught me how to work in a team on Unity using Unity Cloud, how to create animations and trigger them from a script, how to use Unity's new Player Input system, and most importantly, how to conceptualize a game designed for mobile.",
         contact_button: "Contact me",
         contact_emailLabel: "Email:"
     }
