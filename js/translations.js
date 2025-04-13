@@ -28,7 +28,7 @@ window.translations = {
         modal_flappy_title: "Flappy Xayah",
         modal_flappy_text : "Ce jeu est la première expérience que j'ai eue avec Unity.<br> " +
             "Je l'ai réalisé à l'aide du tutoriel <a href='www.youtube.com/watch?v=XtQMytORBmM'> The Unity Tutorial for Complete Beginners de Game Maker's Toolkit</a>" +
-            ", qui m'a appris à comprendre l'interface d'Unity ainsi que des notions essentielles, comme les " +
+            ", qui m'a appris à comprendre l'interface d'Unity ainsi que des notions essentielles, comme les GameObjects." +
             "<br><br>" +
             "Dans ce jeu, on incarne Xayah (le personnage de League of Legends) qui progresse dans une forêt. " +
             "L'objectif est de tirer des plumes sur des cibles pour ouvrir des tuyaux, mais Xayah dispose d'un nombre limité de plumes à chaque essai. " +
